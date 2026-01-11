@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dobos Cezar Guitar</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <h1 class="titlu">Doboș Cezar</h1>
+    <div class="chenar">
+        <div class="meniu">
+            <h3 class="awards-meniu desktop-only">
+                <a href="index.html">home</a>
+            </h3>
+            <h3 class="awards-meniu desktop-only">
+                <a href="gallery.html">galerie</a>
+            </h3>
+            <h3 class="awards-meniu desktop-only">
+                <a href="awards.html">premii</a>
+            </h3>
+
+            <div class="burger-icon" onclick="toggleMobileMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="mobile-overlay" id="mobileMenu">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileMenu()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Galerie</a>
+                <a href="awards.html">Premii</a>
+
+            </div>
+        </div>
+
+        <img src="poze/chitara.jpg" alt="Chitara">
+    </div>
+
+    <div class="bio">
+
+        <h1 class="subtitlu">Biografie</h1>
+
+        <div class="bio_centru">
+            <div class="bio_text">
+                <p>Doboș Cezar a început studiul chitarei la varsta
+                    de 10 ani la Colegiul Național de Arte George Apostu Bacău. S-a făcut remarcat în concursuri precum:
+                    „Alexandru Marghiloman", „George Georgescu", „Noelia Prisecaru",
+                    „Artfest Ploiești". Acesta a obținut mențiune în cadrul Olimpiadei Naționale de Interpretare și
+                    locul III în
+                    cadrul
+                    „Festivalului Internațional Transilvania”.A susținut recitaluri in cadrul festivalului Chei
+                    organizat de
+                    Universitatea Națională de
+                    Muzică din București, dar si in cadrul asociației Chitara Nova. De-a lungul timpului a urmat cursuri
+                    de
+                    măiestrie alături de nume cunoscute
+                    atat in plan național cat si internațional precum Daniel Dragomirescu, Pedrag Stankovic si Emil
+                    Efendic. A
+                    terminat studiile de licență
+                    la Universitatea Națională de Muzică București sub îndrumarea profesorului Conf. Univ. Dr. Cătălin
+                    Ștefănescu-Pătrașcu, in prezent urmând cursuri
+                    de masterat la Universitatea Națională de Arte George Enescu din Iași unde studiază cu Dan Arhire și
+                    Dragoș
+                    Ilie.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="gallery">
+
+        <span class="subtitlu">Galerie</span>
+
+
+        <div class="galerie-grid">
+            <div class="card-poza  ">
+                <img src="poze/cezar2.jpeg">
+            </div>
+            <div class="card-poza  card-wide">
+                <img src="poze/cezar1.jpeg">
+            </div>
+            <div class="card-poza ">
+                <img src="poze/cezar5.jpg">
+            </div>
+            <div class="card-poza card-wide">
+                <img src="poze/cezar3.jpg">
+            </div>
+            <div class="card-poza ">
+                <img src="poze/cezar4.jpg">
+            </div>
+            <div class="card-poza ">
+                <img src="poze/cezar6.jpg">
+            </div>
+        </div>
+    </div>
+    <div id="modal-poza" class="modal">
+        <span class="inchide">&times;</span>
+        <img class="modal-content" id="img-mare">
+        <div id="text-descriere"></div>
+    </div>
+     <div class="container-buton-more">
+            <a href="gallery.html" class="btn-vezi-mai-mult">
+                See More <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+
+    <div class="awards">
+
+        <span class="subtitlu">Premii</span>
+
+
+        <div class="premiere-container">
+
+            <div class="card-premiu">
+                <div class="icon-zona">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <div class="text-zona">
+                    <span class="data-premiu">28 Aprilie 2018</span>
+                    <h3 class="titlu-premiu">Premiul I - Concursul Național “Primăvara Artelor”</h3>
+                    <p class="locatie-premiu">Bacău</p>
+                </div>
+            </div>
+
+            <div class="card-premiu">
+                <div class="icon-zona">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <div class="text-zona">
+                    <span class="data-premiu">8 Iunie 2018</span>
+                    <h3 class="titlu-premiu">Premiul I - Concursul Interjudețean “Noelia Prisecaru”</h3>
+                    <p class="locatie-premiu">Liceul de Artă “Gheorghe Tătărescu” Focșani</p>
+                </div>
+            </div>
+
+            <div class="card-premiu">
+                <div class="icon-zona">
+                    <i class="fa-solid fa-medal"></i>
+                </div>
+                <div class="text-zona">
+                    <span class="data-premiu">8 Iunie 2018</span>
+                    <h3 class="titlu-premiu">Premiul Special al Juriului pentru Interpretare</h3>
+                    <p class="locatie-premiu">Concursul Interjudețean “Noelia Prisecaru” - Focșani</p>
+                </div>
+            </div>
+
+            <div class="card-premiu">
+                <div class="icon-zona">
+                    <i class="fa-solid fa-medal"></i>
+                </div>
+                <div class="text-zona">
+                    <span class="data-premiu">3 Iunie 2018</span>
+                    <h3 class="titlu-premiu">Premiul III - Concursul Național de Interpretare “Lira de Aur”</h3>
+                    <p class="locatie-premiu">Bacău</p>
+                </div>
+            </div>
+
+            <div class="card-premiu">
+                <div class="icon-zona">
+                    <i class="fa-solid fa-medal"></i>
+                </div>
+                <div class="text-zona">
+                    <span class="data-premiu">Septembrie 2019</span>
+                    <h3 class="titlu-premiu">Premiul III - Festivalul Internațional de Chitară Clasică (Ed. 18)</h3>
+                    <p class="locatie-premiu">Academia Națională de Muzică “Gheorghe Dima” Cluj-Napoca</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-buton-more">
+            <a href="awards.html" class="btn-vezi-mai-mult">
+                See More <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="contact">
+
+
+        <h1 class="subtitluW">Contact</h1>
+
+        <p class="text-simplu">Phone:<br>0774 059 752</p>
+        <p class="text-simplu">Email:<br>cezardobos2@gmail.com</p>
+        <div id="container1">
+            <div id="sc-box1">
+                <div id="facebook1">
+                    <a href="https://www.facebook.com/profile.php?id=100011245302227&locale=ro_RO" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+
+                <div id="instagram1">
+                    <a href=https://www.instagram.com/cezar_ces/ target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                </div>
+
+
+
+
+                <i class="fa-brands fa-youtube" id="youtube1"></i>
+
+            </div>
+
+
+        </div>
+
+        <p class="footer">Dobos Cezar © All rights reserved</p>
+    </div>
+
+
+
+    <script>
+
+        // 1. Luăm elementele de care avem nevoie
+        var modal = document.getElementById("modal-poza");
+        var imgMare = document.getElementById("img-mare");
+        var textDescriere = document.getElementById("text-descriere");
+
+        // Selectăm toate imaginile din galerie care sunt în interiorul clasei .card-poza
+        var imaginiGalerie = document.querySelectorAll(".card-poza img");
+
+        // 2. Adăugăm funcția de click pe fiecare poză
+        imaginiGalerie.forEach(function (img) {
+            img.onclick = function () {
+                modal.style.display = "block"; // Arată fereastra
+                imgMare.src = this.src; // Pune poza pe care am dat click în fereastră
+                textDescriere.innerHTML = this.alt; // Opțional: pune textul 'alt' ca descriere
+            }
+        });
+
+        // 3. Funcția pentru butonul X (închidere)
+        var span = document.getElementsByClassName("inchide")[0];
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // 4. (Opțional) Închide dacă dai click oriunde în afara pozei (pe fundalul negru)
+        modal.onclick = function (event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        }
+
+
+
+        function toggleMobileMenu() {
+            var menu = document.getElementById("mobileMenu");
+            // Dacă meniul e deschis (are width 100%), îl închidem (width 0)
+            if (menu.style.width === "100%") {
+                menu.style.width = "0";
+            } else {
+                // Altfel îl deschidem
+                menu.style.width = "100%";
+            }
+        }
+
+    </script>
+
+
+</body>
+
+</html>

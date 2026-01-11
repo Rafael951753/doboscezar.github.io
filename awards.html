@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dobos Cezar Guitar</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+
+
+    <h1 class="titlu" style="color: black;">Doboș Cezar</h1>
+   <div class="chenar-awards">
+    <div class="meniu">
+        
+        <h3 class="awards-meniu desktop-only">
+            <a href="index.html" style="color: black;">home</a>
+        </h3>
+         <h3 class="awards-meniu desktop-only">
+            <a href="gallery.html" style="color: black;">galerie</a>
+        </h3>
+        <h3 class="awards-meniu desktop-only">
+            <a href="awards.html" style="color: black;">premii</a>
+        </h3>
+    <div class="burger-icon" style="color: black;" onclick="toggleMobileMenu()"  >
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="mobile-overlay" id="mobileMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileMenu()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Galerie</a>
+            <a href="awards.html">Awards</a>
+      
+        </div>
+    </div>
+</div>
+
+    <span class="subtitlu">Premii</span>
+
+      
+
+<div class="awards-container">
+    
+    <div class="year-group">
+        <h2>2023</h2>
+        <ul>
+            <li><strong>Iunie:</strong> Premiul I, Concursul Internațional “Appassionato” București, categoria “Ansamblu Instrumental”</li>
+            <li><strong>Aprilie:</strong> Premiul I, Concursul Național “Treptele Chitarei”</li>
+        </ul>
+    </div>
+
+    <div class="year-group">
+        <h2>2022</h2>
+        <ul>
+            <li><strong>Martie:</strong> Premiul I cu Excelență, Concursul Artfest Ploiești</li>
+            <li><strong>Februarie:</strong> Premiul I, Concursul Național de Chitară „Chitariștii României”</li>
+        </ul>
+    </div>
+
+    <div class="year-group">
+        <h2>2021</h2>
+        <ul>
+            <li><strong>Februarie:</strong> Premiul II, Festival-Concurs “Artfest Ploiești”</li>
+        </ul>
+    </div>
+
+    <div class="year-group">
+        <h2>2019</h2>
+        <ul>
+            <li><strong>Decembrie:</strong> Premiul I, Concursul Interjudețean “Little Strings” Buzău</li>
+            <li><strong>Noiembrie:</strong> Premiul I, Concursul “Sărbătoarea Artelor Moderne” Bacău</li>
+            <li><strong>Septembrie:</strong> Premiul III, Festivalul Internațional de Chitară Clasică Cluj (Ed. 18)</li>
+            <li><strong>Iulie:</strong> Premiul I, Concursul Internațional “George Georgescu” Tulcea</li>
+            <li><strong>Iunie:</strong> Premiul I și Premiul Special al Juriului, Concursul “Noelia Prisecaru” Focșani</li>
+            <li><strong>Aprilie:</strong> Trofeu Aur (Primăvara Artelor) și Trofeul “Elevii au Talent” Bacău</li>
+            <li><strong>Primăvară:</strong> Locul I Olimpiada Județeană / Locul III Olimpiada Națională</li>
+        </ul>
+    </div>
+
+    <div class="year-group">
+        <h2>2018</h2>
+        <ul>
+            <li><strong>Septembrie:</strong> Locul III, Festivalul Internațional de Chitară Clasică Cluj (Ed. 17)</li>
+            <li><strong>Iulie:</strong> Premiul III, Concursul Internațional “George Georgescu” Tulcea</li>
+            <li><strong>Iunie:</strong> Premiul I și Premiul Special, Concursul “Noelia Prisecaru” Focșani</li>
+            <li><strong>Iunie:</strong> Premiul III, Concursul Național “Lira de Aur” Bacău</li>
+            <li><strong>Aprilie:</strong> Premiul I, Concursul Național “Primăvara Artelor” Bacău</li>
+        </ul>
+    </div>
+
+</div>
+
+
+
+    <div class="contact">
+        <h1 class="subtitluW">Contact</h1>
+        <p class="text-simplu">Phone:<br>0774 059 752</p>
+        <p class="text-simplu">Email:<br>cezardobos2@gmail.com</p>
+        <div id="container1">
+            <div id="sc-box1">
+                <div id="facebook1">
+                    <a href="https://www.facebook.com/profile.php?id=100011245302227&locale=ro_RO" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div id="instagram1">
+                    <a href=https://www.instagram.com/cezar_ces/ target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <i class="fa-brands fa-youtube" id="youtube1"></i>
+            </div>
+        </div>
+        <p class="footer">Dobos Cezar © All rights reserved</p>
+    </div>
+
+
+<script>
+     function toggleMobileMenu() {
+        var menu = document.getElementById("mobileMenu");
+        // Dacă meniul e deschis (are width 100%), îl închidem (width 0)
+        if (menu.style.width === "100%") {
+            menu.style.width = "0";
+        } else {
+            // Altfel îl deschidem
+            menu.style.width = "100%";
+        }
+    }
+
+</script>
+
+</body>
+
+</html>
