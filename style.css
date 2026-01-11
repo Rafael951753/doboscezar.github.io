@@ -827,7 +827,7 @@ html {
 
 
     .desktop-only {
-        display: none;
+        display: none  !important;
     }
     .burger-icon  {
         display: block; 
@@ -910,6 +910,7 @@ html {
 }
 
 }
+
 
 
 
