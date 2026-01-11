@@ -13,6 +13,11 @@ html, body {
     position: relative; /* Ajută la stabilitate */
 }
 
+.mobile-only {
+    display: none !important; 
+}
+
+
 body {
     margin: 0px;
     background-color: white;
@@ -753,6 +758,11 @@ html {
 
 @media (max-width: 600px) {
  /* 1. Transformăm containerul Grid într-un container Flex orizontal */
+.mobile-only {
+        display: block !important;
+        width: 100%; 
+    }
+    
     .galerie-grid {
         display: flex;
         flex-direction: row;
@@ -898,6 +908,7 @@ html {
 }
 
 }
+
 
 
 
