@@ -15,15 +15,28 @@
     <div class="chenar">
         <div class="meniu">
             <h3 class="awards-meniu desktop-only">
-                <a href="index.html">home</a>
+                <a href="index.html">
+                    <span class="text-ro">Acasă</span>
+                    <span class="text-en">Home</span>
+                </a>
             </h3>
             <h3 class="awards-meniu desktop-only">
-                <a href="gallery.html">galerie</a>
+               <a href="gallery.html">
+                    <span class="text-ro">Galerie</span>
+                    <span class="text-en">Gallery</span>
+                </a>
             </h3>
             <h3 class="awards-meniu desktop-only">
-                <a href="awards.html">premii</a>
+                <a href="awards.html">
+                    <span class="text-ro">Premii</span>
+                    <span class="text-en">Awards</span>
+                </a>
             </h3>
-
+             
+<div class="lang-container desktop-only">
+    <img src="https://flagcdn.com/w40/ro.png" class="steag" onclick="setLimba('ro')">
+    <img src="https://flagcdn.com/w40/gb.png" class="steag" onclick="setLimba('en')">
+</div>
             <div class="burger-icon" onclick="toggleMobileMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -32,11 +45,27 @@
         <div class="mobile-overlay" id="mobileMenu">
             <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileMenu()">&times;</a>
             <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="gallery.html">Galerie</a>
-                <a href="awards.html">Premii</a>
+<div class="lang-container" style="display: flex; justify-content: center;  width: 100%; margin-bottom: 100px; margin-left: 0px;">
+    <img src="https://flagcdn.com/w40/ro.png" class="steag" onclick="setLimba('ro')" style="width: 40px; height: auto;">
+    <img src="https://flagcdn.com/w40/gb.png" class="steag" onclick="setLimba('en')" style="width: 40px; height: auto;">
+</div>
+                <a href="index.html">
+                    <span class="text-ro">Acasă</span>
+                    <span class="text-en">Home</span>
+                </a>
+                 <a href="gallery.html">
+                    <span class="text-ro">Galerie</span>
+                    <span class="text-en">Gallery</span>
+                </a>
+                 <a href="awards.html">
+                    <span class="text-ro">Premii</span>
+                    <span class="text-en">Awards</span>
+                </a>
 
+                 
             </div>
+            
+              
         </div>
           <img src="poze/cezar1.jpeg" class="desktop-only">
         <img src="poze/cezar5.jpg" class="mobile-only">
@@ -45,30 +74,33 @@
 
     <div class="bio">
 
-        <h1 class="subtitlu">Biografie</h1>
+  <h1 class="subtitlu">
+            <span class="text-ro">Biografie</span>
+            <span class="text-en">Biography</span>
+        </h1>
 
         <div class="bio_centru">
-            <div class="bio_text">
-                <p>Doboș Cezar a început studiul chitarei la varsta
-                    de 10 ani la Colegiul Național de Arte George Apostu Bacău. S-a făcut remarcat în concursuri precum:
-                    „Alexandru Marghiloman", „George Georgescu", „Noelia Prisecaru",
-                    „Artfest Ploiești". Acesta a obținut mențiune în cadrul Olimpiadei Naționale de Interpretare și
-                    locul III în
-                    cadrul
-                    „Festivalului Internațional Transilvania”.A susținut recitaluri in cadrul festivalului Chei
-                    organizat de
-                    Universitatea Națională de
-                    Muzică din București, dar si in cadrul asociației Chitara Nova. De-a lungul timpului a urmat cursuri
-                    de
-                    măiestrie alături de nume cunoscute
-                    atat in plan național cat si internațional precum Daniel Dragomirescu, Pedrag Stankovic si Emil
-                    Efendic. A
-                    terminat studiile de licență
-                    la Universitatea Națională de Muzică București sub îndrumarea profesorului Conf. Univ. Dr. Cătălin
-                    Ștefănescu-Pătrașcu, in prezent urmând cursuri
-                    de masterat la Universitatea Națională de Arte George Enescu din Iași unde studiază cu Dan Arhire și
-                    Dragoș
-                    Ilie.</p>
+           <p class="text-ro">
+                    Doboș Cezar a început studiul chitarei la vârsta de 10 ani la Colegiul Național de Arte "George Apostu" Bacău. 
+                    S-a făcut remarcat în concursuri precum: „Alexandru Marghiloman", „George Georgescu", „Noelia Prisecaru", „Artfest Ploiești". 
+                    Acesta a obținut mențiune în cadrul Olimpiadei Naționale de Interpretare și locul III în cadrul „Festivalului Internațional Transilvania”. 
+                    A susținut recitaluri în cadrul festivalului Chei organizat de Universitatea Națională de Muzică din București, dar și în cadrul asociației Chitara Nova. 
+                    De-a lungul timpului a urmat cursuri de măiestrie alături de nume cunoscute atât în plan național cât și internațional precum Daniel Dragomirescu, 
+                    Pedrag Stankovic și Emil Efendic. A terminat studiile de licență la Universitatea Națională de Muzică București sub îndrumarea profesorului 
+                    Conf. Univ. Dr. Cătălin Ștefănescu-Pătrașcu, în prezent urmând cursuri de masterat la Universitatea Națională de Arte "George Enescu" din Iași 
+                    unde studiază cu Dan Arhire și Dragoș Ilie.
+                </p>
+
+                <p class="text-en">
+                    Doboș Cezar began studying guitar at the age of 10 at the "George Apostu" National College of Arts in Bacău. 
+                    He distinguished himself in competitions such as: "Alexandru Marghiloman", "George Georgescu", "Noelia Prisecaru", and "Artfest Ploiești". 
+                    He obtained a mention at the National Interpretation Olympiad and 3rd place at the "Transilvania" International Festival. 
+                    He gave recitals at the Chei Festival organized by the National University of Music Bucharest, as well as within the Chitara Nova association. 
+                    Over time, he attended masterclasses with renowned names both nationally and internationally, such as Daniel Dragomirescu, 
+                    Pedrag Stankovic, and Emil Efendic. He completed his bachelor's studies at the National University of Music Bucharest under the guidance of 
+                    Prof. Univ. Dr. Cătălin Ștefănescu-Pătrașcu, and is currently pursuing master's studies at the "George Enescu" National University of Arts in Iași, 
+                    studying with Dan Arhire and Dragoș Ilie.
+                </p>
             </div>
 
         </div>
@@ -79,7 +111,10 @@
 
     <div class="gallery">
 
-        <span class="subtitlu">Galerie</span>
+   <span class="subtitlu">
+            <span class="text-ro">Galerie</span>
+            <span class="text-en">Gallery</span>
+        </span>
 
 
         <div class="galerie-grid">
@@ -110,78 +145,124 @@
     </div>
      <div class="container-buton-more">
             <a href="gallery.html" class="btn-vezi-mai-mult">
-                See More <i class="fa-solid fa-arrow-right"></i>
+               <span class="text-ro">Mai multe</span>
+                 <span class="text-en">See More</span>
+                  <i class="fa-solid fa-arrow-right"></i>
             </a>
         </div>
 
 
     <div class="awards">
 
-        <span class="subtitlu">Premii</span>
+          <span class="subtitlu">
+            <span class="text-ro">Premii</span>
+            <span class="text-en">Awards</span>
+        </span>
 
 
         <div class="premiere-container">
 
-            <div class="card-premiu">
-                <div class="icon-zona">
-                    <i class="fa-solid fa-trophy"></i>
-                </div>
-                <div class="text-zona">
-                    <span class="data-premiu">28 Aprilie 2018</span>
-                    <h3 class="titlu-premiu">Premiul I - Concursul Național “Primăvara Artelor”</h3>
-                    <p class="locatie-premiu">Bacău</p>
-                </div>
-            </div>
-
-            <div class="card-premiu">
-                <div class="icon-zona">
-                    <i class="fa-solid fa-trophy"></i>
-                </div>
-                <div class="text-zona">
-                    <span class="data-premiu">8 Iunie 2018</span>
-                    <h3 class="titlu-premiu">Premiul I - Concursul Interjudețean “Noelia Prisecaru”</h3>
-                    <p class="locatie-premiu">Liceul de Artă “Gheorghe Tătărescu” Focșani</p>
-                </div>
-            </div>
-
-            <div class="card-premiu">
-                <div class="icon-zona">
-                    <i class="fa-solid fa-medal"></i>
-                </div>
-                <div class="text-zona">
-                    <span class="data-premiu">8 Iunie 2018</span>
-                    <h3 class="titlu-premiu">Premiul Special al Juriului pentru Interpretare</h3>
-                    <p class="locatie-premiu">Concursul Interjudețean “Noelia Prisecaru” - Focșani</p>
-                </div>
-            </div>
-
-            <div class="card-premiu">
-                <div class="icon-zona">
-                    <i class="fa-solid fa-medal"></i>
-                </div>
-                <div class="text-zona">
-                    <span class="data-premiu">3 Iunie 2018</span>
-                    <h3 class="titlu-premiu">Premiul III - Concursul Național de Interpretare “Lira de Aur”</h3>
-                    <p class="locatie-premiu">Bacău</p>
-                </div>
-            </div>
-
-            <div class="card-premiu">
-                <div class="icon-zona">
-                    <i class="fa-solid fa-medal"></i>
-                </div>
-                <div class="text-zona">
-                    <span class="data-premiu">Septembrie 2019</span>
-                    <h3 class="titlu-premiu">Premiul III - Festivalul Internațional de Chitară Clasică (Ed. 18)</h3>
-                    <p class="locatie-premiu">Academia Națională de Muzică “Gheorghe Dima” Cluj-Napoca</p>
-                </div>
-            </div>
-
+    <div class="card-premiu">
+        <div class="icon-zona">
+            <i class="fa-solid fa-trophy"></i>
         </div>
+        <div class="text-zona">
+            <span class="data-premiu">
+                <span class="text-ro">28 Aprilie 2018</span>
+                <span class="text-en">April 28, 2018</span>
+            </span>
+            <h3 class="titlu-premiu">
+                <span class="text-ro">Premiul I - Concursul Național “Primăvara Artelor”</span>
+                <span class="text-en">1st Prize - “Primăvara Artelor” National Competition</span>
+            </h3>
+            <p class="locatie-premiu">Bacău</p>
+        </div>
+    </div>
+
+    <div class="card-premiu">
+        <div class="icon-zona">
+            <i class="fa-solid fa-trophy"></i>
+        </div>
+        <div class="text-zona">
+            <span class="data-premiu">
+                <span class="text-ro">8 Iunie 2018</span>
+                <span class="text-en">June 8, 2018</span>
+            </span>
+            <h3 class="titlu-premiu">
+                <span class="text-ro">Premiul I - Concursul Interjudețean “Noelia Prisecaru”</span>
+                <span class="text-en">1st Prize - “Noelia Prisecaru” Intercounty Competition</span>
+            </h3>
+            <p class="locatie-premiu">
+                <span class="text-ro">Liceul de Artă “Gheorghe Tătărescu” Focșani</span>
+                <span class="text-en">“Gheorghe Tătărescu” Art High School Focșani</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="card-premiu">
+        <div class="icon-zona">
+            <i class="fa-solid fa-medal"></i>
+        </div>
+        <div class="text-zona">
+            <span class="data-premiu">
+                <span class="text-ro">8 Iunie 2018</span>
+                <span class="text-en">June 8, 2018</span>
+            </span>
+            <h3 class="titlu-premiu">
+                <span class="text-ro">Premiul Special al Juriului pentru Interpretare</span>
+                <span class="text-en">Special Jury Prize for Interpretation</span>
+            </h3>
+            <p class="locatie-premiu">
+                <span class="text-ro">Concursul Interjudețean “Noelia Prisecaru” - Focșani</span>
+                <span class="text-en">“Noelia Prisecaru” Intercounty Competition - Focșani</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="card-premiu">
+        <div class="icon-zona">
+            <i class="fa-solid fa-medal"></i>
+        </div>
+        <div class="text-zona">
+            <span class="data-premiu">
+                <span class="text-ro">3 Iunie 2018</span>
+                <span class="text-en">June 3, 2018</span>
+            </span>
+            <h3 class="titlu-premiu">
+                <span class="text-ro">Premiul III - Concursul Național de Interpretare “Lira de Aur”</span>
+                <span class="text-en">3rd Prize - “Lira de Aur” National Interpretation Competition</span>
+            </h3>
+            <p class="locatie-premiu">Bacău</p>
+        </div>
+    </div>
+
+    <div class="card-premiu">
+        <div class="icon-zona">
+            <i class="fa-solid fa-medal"></i>
+        </div>
+        <div class="text-zona">
+            <span class="data-premiu">
+                <span class="text-ro">Septembrie 2019</span>
+                <span class="text-en">September 2019</span>
+            </span>
+            <h3 class="titlu-premiu">
+                <span class="text-ro">Premiul III - Festivalul Internațional de Chitară Clasică (Ed. 18)</span>
+                <span class="text-en">3rd Prize - International Classical Guitar Festival (18th Ed.)</span>
+            </h3>
+            <p class="locatie-premiu">
+                <span class="text-ro">Academia Națională de Muzică “Gheorghe Dima” Cluj-Napoca</span>
+                <span class="text-en">“Gheorghe Dima” National Music Academy Cluj-Napoca</span>
+            </p>
+        </div>
+    </div>
+
+</div>
 
         <div class="container-buton-more">
             <a href="awards.html" class="btn-vezi-mai-mult">
-                See More <i class="fa-solid fa-arrow-right"></i>
+                   <span class="text-ro">Mai multe</span>
+                 <span class="text-en">See More</span>
+                  <i class="fa-solid fa-arrow-right"></i>
             </a>
         </div>
 
@@ -192,7 +273,10 @@
 
         <h1 class="subtitluW">Contact</h1>
 
-        <p class="text-simplu">Phone:<br>0774 059 752</p>
+        <p class="text-simplu">
+            <span class="text-ro">Telefon:</span>
+            <span class="text-en">Phone:</span>
+            <br>0774 059 752</p>
         <p class="text-simplu">Email:<br>cezardobos2@gmail.com</p>
         <div id="container1">
             <div id="sc-box1">
@@ -271,6 +355,7 @@
 
     </script>
 
+<script src="script.js"></script>
 
 </body>
 

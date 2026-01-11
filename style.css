@@ -17,7 +17,57 @@ html, body {
     display: none !important; 
 }
 
+/* Ascunde elementele de engleză când site-ul e în Română (default) */
+body.limba-ro .text-en {
+    display: none !important;
+}
 
+/* Ascunde elementele de română când site-ul e în Engleză */
+body.limba-en .text-ro {
+    display: none !important;
+}
+
+/* --- STILURI PENTRU STEAGURI --- */
+
+/* Containerul de pe desktop */
+.lang-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Spațiu între steaguri */
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+/* Containerul de pe mobil */
+.lang-container-mobile {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Stilul comun pentru imagini (steaguri) */
+.steag {
+    width: 30px;       /* Lățimea steagului */
+    height: auto;
+    cursor: pointer;   /* Arată mânuța când pui mouse-ul */
+    transition: transform 0.2s, opacity 0.2s;
+    opacity: 0.6;      /* Ușor transparente când nu sunt selectate */
+}
+
+/* Când pui mouse-ul peste */
+.steag:hover {
+    transform: scale(1.2); /* Se măresc puțin */
+    opacity: 1;            /* Devin complet vizibile */
+}
+
+/* Clasa activă (pentru steagul selectat) */
+.steag-activ {
+    opacity: 1 !important;
+    border: 2px solid white; /* Opțional: un contur alb */
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
 body {
     margin: 0px;
     background-color: white;
@@ -890,6 +940,21 @@ html {
         grid-column: auto;
         grid-row: auto;
     }
+
+
+
+
+/* Containerul de pe desktop */
+.lang-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Spațiu între steaguri */
+    margin-left: 30px;
+    margin-right: 20px;
+    height: 20px;
+}
+
+
 
 }
 
