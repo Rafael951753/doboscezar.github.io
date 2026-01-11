@@ -757,10 +757,12 @@ html {
 
 
 @media (max-width: 600px) {
- /* 1. Transformăm containerul Grid într-un container Flex orizontal */
-.mobile-only {
+ img.desktop-only {
+        display: none !important;
+    }
+
+    img.mobile-only {
         display: block !important;
-        width: 100%; 
     }
     
     .galerie-grid {
@@ -908,6 +910,7 @@ html {
 }
 
 }
+
 
 
 
