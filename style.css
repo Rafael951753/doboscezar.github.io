@@ -862,7 +862,7 @@ html {
 /* =============AWARDS =============================*/
 
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
  img.desktop-only {
         display: none !important;
     }
