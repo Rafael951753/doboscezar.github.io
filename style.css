@@ -329,7 +329,8 @@ background-color: rgba(255, 255, 255, 0.944);
     flex: 1;                   /* Ocupă spațiu egal sau flexibil */
    text-align: left;     /* Arată bine dacă textul e aliniat spre biografie */
            /* Resetăm înălțimea de 100vh dacă o aveai înainte */
-    padding: 0;                /* Resetăm padding-ul mare */
+    padding: 0;     
+    margin-right: 20px;/* Resetăm padding-ul mare */
 }
 
 /* Coloana 2: Textul lung */
